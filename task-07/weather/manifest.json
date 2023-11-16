@@ -1,0 +1,9 @@
+{
+    "manifest_version":3,
+    "name":"weather forecast",
+    "version":"1.0",
+    "description":"displays the weather in the requested area",
+    "action": {
+        "default_popup": "popup/popup.html"
+    }
+}
