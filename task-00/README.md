@@ -1,0 +1,1 @@
+I Dual-booted my PC by referring to a youtube video provided and have done it easily.
