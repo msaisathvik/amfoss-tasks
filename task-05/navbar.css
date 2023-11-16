@@ -1,0 +1,20 @@
+.navbar{
+    width:100%;
+    height:auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.navbar img{
+    height:50px;
+    margin-left:30px;
+    padding:3px;
+}
+
+.navbar-right{
+    position:absolute;
+    left:75%;
+    top:3px;
+}
+.navbar-right ul li{
+    display:inline-block;
+}

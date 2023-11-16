@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;   
+}
+.container{
+    width:100vw;
+    background:url("assets/backdrop.png");
+    height:100vh;
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+.name{
+    width:50%;
+    height: 30%;
+    position: absolute;
+    top:60%;
+    left:23%;
+    text-align: center;
+}
+
+.name h1{
+    color:white;
+}
+
+#shopbtn, #shopbtn a{
+    background-color: #2BDAE1;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding:3px;
+    border-radius: 7px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: large;
+}
+
+#shopbtn a{
+    text-decoration: none;
+
+}
