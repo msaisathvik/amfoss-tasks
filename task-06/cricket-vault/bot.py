@@ -46,11 +46,7 @@ async def on_message(message):
         except FileNotFoundError:
             await message.channel.send('CSV file not found.')
             return
-
-        # Format the CSV data as a string
         csv_string = csv_data.to_string(index=False)
-
-        # Send the formatted CSV data to the channel
         await message.channel.send(f'```\n{csv_string}\n```')
 
 
