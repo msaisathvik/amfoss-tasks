@@ -9,18 +9,6 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, "html.parser")
 
 mydict=[]
-'''def getScore():
-    
-    for x in soup.find_all("div", {"class": "ds-px-4 ds-py-3"}):
-        score = []
-        for m in x.find_all("span", {"class": "ds-text-raw-red"}):
-            if m.text == "Live":
-                for y in x.find_all("p", {"class": "ds-text-tight-m"}):
-                    score.append(y.text)
-                score.append(score[0] + " vs " + score[1])
-                for o in x.find_all("div", {"class": "ds-text-compact-s"}):
-                    score.append(o.text)
-    return score'''
 
 
 def write(mydict):
