@@ -9,3 +9,4 @@ I want to get better at my coding skills and  technical skills. I want to explor
 ### HOW WOULD YOU CONTRIBUTE BACK TO THE CLUB?
 I will do my best and give my 100% in contributing to the club either in projects or any other work.
 ### DO YOU HAVE ANY FEEDBACK ON THE SELECTION PROCESS?
+The tasks were innovative and a bit tough. These tasks helped me to learn many new technical concepts.
