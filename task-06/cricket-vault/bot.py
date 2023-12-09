@@ -6,6 +6,7 @@ import discord
 import requests
 import json
 from bs4 import BeautifulSoup
+const config = require('./config.json');
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -49,6 +50,4 @@ async def on_message(message):
         csv_string = csv_data.to_string(index=False)
         await message.channel.send(f'```\n{csv_string}\n```')
 
-
-token = "MTE2NTE2MzMyMjAwNjU3NzI1Mg.GvnFZB.7mpjZim1ZTvX_56cyPuRBmTRodPrAHbStWMVHQ"
-client.run(token)
+client.run(config.token)
